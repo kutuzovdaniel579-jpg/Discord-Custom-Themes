@@ -1,7 +1,7 @@
 /* Algemene achtergrond */
 body,
 .appMount-3lHmkl {
-  background-image: url("https://i.postimg.cc/nMpVbKtF/2020-07-23-14-05-16.jpg");
+  background-image: url("https://raw.githubusercontent.com/kutuzovdaniel579-jpg/minecraft-discord-theme/main/Minecraft-background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body,
 
 /* Pixelated Discord-logo vervangen */
 [aria-label="Home"] svg {
-  background-image: url("https://i.postimg.cc/Cd7hFZFV/Pixelated-Discord.png");
+  background-image: url("https://raw.githubusercontent.com/kutuzovdaniel579-jpg/minecraft-discord-theme/main/Pixelated-Discord.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 32px;
