@@ -1,0 +1,46 @@
+:root {
+  /* Achtergrondafbeelding: Minecraft bos */
+  --background-image: url("https://i.postimg.cc/nMpVbKtF/2020-07-23-14-05-16.jpg");
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+
+  /* Kleuren met transparantie */
+  --background-primary: rgba(255, 255, 255, 0.1);
+  --background-secondary: rgba(255, 255, 255, 0.05);
+  --background-tertiary: rgba(255, 255, 255, 0.03);
+  --header-primary: #00ff00;
+  --header-secondary: #aaffaa;
+  --text-normal: #ffffff;
+  --text-muted: #cccccc;
+  --interactive-normal: #00ff00;
+  --interactive-hover: #55ff55;
+  --interactive-active: #00cc00;
+  --interactive-muted: #555555;
+}
+
+/* Liquid glass effect op panelen */
+.container-1NxXq4,
+.sidebar-1tnWFu,
+.chatContent-3KubbW,
+.panels-3wFtMD,
+.title-31SJ6t,
+.membersWrap-3NUR2t {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.1);
+}
+
+/* Pixelated Discord-logo vervangen */
+[aria-label="Home"] svg {
+  background-image: url("https://i.postimg.cc/Cd7hFZFV/Pixelated-Discord.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  content: "";
+  mask-image: none;
+  -webkit-mask-image: none;
+  fill: transparent;
+}
